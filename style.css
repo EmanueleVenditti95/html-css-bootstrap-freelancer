@@ -1,0 +1,24 @@
+.debug {
+    border: 2px solid black;
+    min-height: 100px;
+}
+
+/* COLOR PALETTE */
+:root {
+    --green:#1abc9c;
+    --light-black:#2c3e50;
+    --light:white;
+    --gray: #3a546d;
+}
+
+.nav-bar, .copyright {
+    background-color: var(--light-black);
+}
+
+.contacts {
+    background-color: var(--gray);
+}
+
+.hero, .about {
+    background-color: var(--green);
+}
