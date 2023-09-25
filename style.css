@@ -3,6 +3,15 @@
     min-height: 100px;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,li {
+    list-style: none;
+}
+
 /* COLOR PALETTE */
 :root {
     --green:#1abc9c;
@@ -15,6 +24,10 @@
     background-color: var(--light-black);
 }
 
+.nav-bar .row {
+    height: 90px;
+}
+
 .contacts {
     background-color: var(--gray);
 }
@@ -22,3 +35,13 @@
 .hero, .about {
     background-color: var(--green);
 }
+
+/* MEDIA QUERY */
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) { }
