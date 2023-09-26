@@ -12,6 +12,10 @@ ul,li {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* COLOR PALETTE */
 :root {
     --green:#1abc9c;
@@ -47,7 +51,7 @@ ul,li {
     display: inline-block;
     height: 3px;
     width: 80px;
-    background-color: var(--light);
+    background-color: currentColor;
     border-radius: 4px;
     margin: 10px;
 }
